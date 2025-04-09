@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.setup-container {
+    margin-bottom: 20px;
+}
+
+.setup-option {
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 0;
+    border: 2px solid #333;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.square.white {
+    background-color: #f0d9b5;
+}
+
+.square.black {
+    background-color: #b58863;
+}
+
+.square.selected {
+    background-color: #7fb3d5;
+}
+
+.square.valid-move {
+    background-color: #82e0aa;
+}
+
+#game-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+} 
