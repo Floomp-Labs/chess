@@ -1,5 +1,5 @@
 HTML-Chess-PvP
-A lightweight yet powerful chess implementation built with vanilla HTML, CSS, and JavaScript. This project features a responsive board design, real-time multiplayer functionality via WebSockets, and complete chess rule validation.
+A lightweight yet powerful chess implementation built with HTML, CSS, and JavaScript. This project features a responsive board design, real-time multiplayer functionality via WebSockets, and complete chess rule validation.
 Features
 
 Browser-based PvP chess with no dependencies
