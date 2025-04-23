@@ -12,6 +12,10 @@ Replay system for reviewing games
 
 Tech Stack
 
+REACT
+
+&
+
 Frontend: HTML5, CSS3, JavaScript
 Real-time communication: WebSockets
 Game state management: Local Storage API
@@ -22,3 +26,4 @@ Clone the repository
 Open index.html in your browser or set up a local server
 Start playing chess!
 
+chess react app
